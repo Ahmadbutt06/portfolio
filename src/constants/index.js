@@ -29,7 +29,10 @@ import {
   todoJS,
   threejs,
   netflix,
-  ecom
+  ecom,
+  bakeplus_image,
+  wacom,
+  kbookstore
 } from "../assets";
 import nestjs from "../assets/tech/nestjs.svg";
 
@@ -190,9 +193,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Covid 19 Tracker",
+    name: "Bakeplus",
     description:
-      "Get in-depth information about the total cases, recovered cases, and unfortunate deaths for each selected country in specific timeframes.Dynamic Bar graph display how the virus spread, the recovery trends, and the unfortunate loss of lives over time.",
+      "BakePlus is an online store offering a wide range of baking and cooking ingredients like powdered eggs, cocoa, and milk powders. It caters to both retail and industrial customers with customizable packaging and ready-made mixes. The site features a clean layout, organized categories, and support for bulk orders.",
     tags: [
       {
         name: "react",
@@ -203,14 +206,14 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: covidImage,
-    liveUrl: "https://covid19trracker.surge.sh/",
+    image: bakeplus_image,
+    liveUrl: "https://shop.mcstaging.bakeplus.com/",
     source_code_link: "https://github.com/ehtashamtoor/covid19tracker/",
   },
   {
-    name: "Expense Tracker",
+    name: "wacom",
     description:
-      "Monitor your balance, track your expenses and income effortlessly, and achieve financial clarity. Add transactions with ease using intuitive input fields. Take charge of your financial journey today and use our Expense Tracker App for a smarter approach to managing your money.",
+      "The Wacom Korea Online Store offers a range of pen tablets, displays, and accessories for digital artists and professionals. It features popular products like Wacom Cintiq and Intuos, with exclusive deals and membership rewards. Customers can enjoy benefits like free shipping, student discounts, and interest-free installment plans.",
     tags: [
       {
         name: "react",
@@ -221,14 +224,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: expenseTracker,
-    liveUrl: "https://exxpense-manageer.surge.sh/",
+    image: wacom,
+    liveUrl: "https://estore.wacom.kr/",
     source_code_link: "https://github.com/ehtashamtoor/expense-manager",
   },
   {
-    name: "Coin Flip Design",
+    name: "Kbookstore",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Kbookstore’s uniqueness lies in its focus on Korean books for both native speakers and Korean language learners outside Korea. It offers exclusive access to popular learning series, culturally relevant titles, and hard-to-find Korean publications in the U.S. With bilingual support, curated categories, and a strong educational focus, it bridges Korean literature and global readers.",
     tags: [
       {
         name: "nextjs",
@@ -243,8 +246,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: coinflip,
-    liveUrl: "https://coin-flip-jade.vercel.app/",
+    image: kbookstore,
+    liveUrl: "https://kbookstore.com/",
     source_code_link: "https://github.com/ehtashamtoor/CoinFLip",
   },
   {
