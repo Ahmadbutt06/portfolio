@@ -36,8 +36,12 @@ import expenseTracker from "./projectsImages/expenseTracker.png";
 import coinflip from "./projectsImages/coinflip.png";
 import todoJS from "./projectsImages/todoJS.png";
 import netflix from "./projectsImages/Netflix.png";
-
+import bakeplus_image from "./projectsImages/bakeplus_image.png";
+import wacom from "./projectsImages/wacom.png";
+import kbookstore from "./projectsImages/kbookstore.png";
 export {
+  wacom,
+  bakeplus_image,
   logo,
   backend,
   MERN,
@@ -72,5 +76,6 @@ export {
   todoJS,
   restaurant,
   netflix,
-  ecom
+  ecom,
+  kbookstore
 };
