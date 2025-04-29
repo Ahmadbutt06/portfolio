@@ -3,7 +3,7 @@ const FixedIcons = () => {
     <div className="md:block hidden fixed z-20 bottom-[50%] transform translate-y-[50%] right-0 lg:px-2 px-0">
       <div className="space-y-5">
         <div className="bg-white text-center cursor-pointer animate-bounce flex justify-center items-center w-max max-w-[50px] max-h-[50px] p-2 rounded-full">
-          <a href="mailto:ahmadch1012@gmail.com">
+          <a href="mailto:ahmadbutthere06@gmail.com">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
@@ -19,7 +19,7 @@ const FixedIcons = () => {
           </a>
         </div>
         <div className="bg-white text-center cursor-pointer flex justify-center items-center w-max max-w-[50px] max-h-[50px] p-2 rounded-full">
-          <a href="tel:+923064360855">
+          <a href="tel:+923027379604">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
@@ -37,7 +37,7 @@ const FixedIcons = () => {
         <div className="text-center cursor-pointer max-w-[50px] max-h-[50px] flex justify-center items-center w-max rounded-full">
           <a
             target="_blank"
-            href="https://wa.me/+923064360855"
+            href="https://wa.me/+923027379604"
             rel="noreferrer"
           >
             <svg
