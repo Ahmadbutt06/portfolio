@@ -32,7 +32,9 @@ import {
   ecom,
   bakeplus_image,
   wacom,
-  kbookstore
+  kbookstore,
+  fetchapi,
+  ai
 } from "../assets";
 import nestjs from "../assets/tech/nestjs.svg";
 
@@ -158,7 +160,7 @@ const experiences = [
     iconBg: "rgb(29, 24, 54)",
     date: "October 2024 - Present",
     points: [
-      "Worked on multiple frameworks like Nextjs, Reactjs, Laravel and Magento 2 etc",
+      "Worked on multiple frameworks like , Reactjs, Laravel and Magento 2 etc",
       "Lead the Skillmatch Website (A platform for the recruitment Process)",
     ],
   },
@@ -198,12 +200,24 @@ const projects = [
       "BakePlus is an online store offering a wide range of baking and cooking ingredients like powdered eggs, cocoa, and milk powders. It caters to both retail and industrial customers with customizable packaging and ready-made mixes. The site features a clean layout, organized categories, and support for bulk orders.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "Restapi",
+        name: "javascript",
         color: "green-text-gradient",
+      },
+      {
+        name: "xml",
+        color: "yellow-gradiant",
+      },
+      {
+        name: "css",
+        color: "pink-gradiant",
+      },
+      {
+        name: "jquery",
+        color: "pink-text-gradient",
       },
     ],
     image: bakeplus_image,
@@ -216,11 +230,23 @@ const projects = [
       "The Wacom Korea Online Store offers a range of pen tablets, displays, and accessories for digital artists and professionals. It features popular products like Wacom Cintiq and Intuos, with exclusive deals and membership rewards. Customers can enjoy benefits like free shipping, student discounts, and interest-free installment plans.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "redux",
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "xml",
+        color: "yellow-gradiant",
+      },
+      {
+        name: "css",
+        color: "pink-gradiant ",
+      },
+      {
+        name: "jquery",
         color: "pink-text-gradient",
       },
     ],
@@ -234,15 +260,23 @@ const projects = [
       "Kbookstore’s uniqueness lies in its focus on Korean books for both native speakers and Korean language learners outside Korea. It offers exclusive access to popular learning series, culturally relevant titles, and hard-to-find Korean publications in the U.S. With bilingual support, curated categories, and a strong educational focus, it bridges Korean literature and global readers.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "typescript",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "xml",
+        color: "yellow-gradiant",
+      },
+      {
+        name: "css",
+        color: "pink-gradiant ",
+      },
+      {
+        name: "jquery",
         color: "pink-text-gradient",
       },
     ],
@@ -251,44 +285,52 @@ const projects = [
     source_code_link: "https://github.com/ehtashamtoor/CoinFLip",
   },
   {
-    name: "TodoApp(JS)",
+    name: "fetchapi(JS)",
     description:
-      "A simple todo app built using javascript to test the javascript logic. In it you can read  your todos, add them from the fields and even edit and delete them.",
+      "This is a simple one-page web application that demonstrates how to use the JavaScript Fetch API to interact with a REST API. The app allows users to retrieve and send data from/to an external API (like JSONPlaceholder) using HTTP GET and POST requests.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
       {
         name: "javascript",
         color: "green-text-gradient",
       },
       {
         name: "css",
+        color: "pink-gradiant ",
+      },
+      {
+        name: "jquery",
         color: "pink-text-gradient",
       },
     ],
-    image: todoJS,
-    liveUrl: "https://todo-appjs.surge.sh/",
+    image: fetchapi,
+    liveUrl: "https://api-fetch-j.netlify.app/",
     source_code_link: "https://github.com/ehtashamtoor/Todo-app-Vanilla-JS",
   },
 
   {
-    name: "Yorfy",
+    name: "learningdesign",
     description:
-      "A Yorfy Responsive website design made using MATERIAL UI. MUI is from the top most css styling frameworks in the world today. This project gives an insight about the styling made using MUI.",
+      "LearningDesign.ai is a platform designed to streamline and democratize the learning design process, making it accessible to individuals and organizations regardless of their Learning and Development (L&D) background. It leverages advanced AI technology to assist users in creating effective training programs efficiently.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "MUI",
+        name: "Bootstrap",
+        color: "red-gradiant",
+      },
+      {
+        name: "jquery",
         color: "pink-text-gradient",
       },
+      {
+        name: "tailwind",
+        color: "green-gradiant",
+      },
     ],
-    image: yorfy,
-    liveUrl: "https://yorrfy.vercel.app/",
+    image: ai,
+    liveUrl: "https://learningdesign.ai/",
     source_code_link: "https://github.com/ehtashamtoor/Yorfy/",
   },
   {
@@ -302,7 +344,7 @@ const projects = [
       },
       {
         name: "css",
-        color: "pink-text-gradient",
+        color: "pink-gradiant",
       },
       {
         name: "javascript",
