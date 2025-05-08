@@ -39,6 +39,8 @@ import netflix from "./projectsImages/Netflix.png";
 import bakeplus_image from "./projectsImages/bakeplus_image.png";
 import wacom from "./projectsImages/wacom.png";
 import kbookstore from "./projectsImages/kbookstore.png";
+import fetchapi from "./projectsImages/fetchapi.png";
+import ai from "./projectsImages/ai.png";
 export {
   wacom,
   bakeplus_image,
@@ -77,5 +79,7 @@ export {
   restaurant,
   netflix,
   ecom,
-  kbookstore
+  kbookstore,
+  fetchapi,
+  ai
 };
