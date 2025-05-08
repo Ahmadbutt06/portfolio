@@ -310,7 +310,7 @@ const projects = [
   {
     name: "learningdesign",
     description:
-      "LearningDesign.ai is a platform designed to streamline and democratize the learning design process, making it accessible to individuals and organizations regardless of their Learning and Development (L&D) background. It leverages advanced AI technology to assist users in creating effective training programs efficiently.",
+      "Learning Design.ai is a platform designed to streamline and democratize the learning design process, making it accessible to individuals and organizations regardless of their Learning and Development (L&D) background. It leverages advanced AI technology to assist users in creating effective training programs efficiently.",
     tags: [
       {
         name: "html",
